@@ -1,0 +1,57 @@
+
+.ContactPage{
+    min-height: 81.2vh;
+    margin: 10px 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 20px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input-field label{ 
+ font-size: 2rem;
+ font-weight: bolder;
+}
+.input-field input, textarea{
+  width: 70%;
+  resize: none;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+textarea{
+    border: 2px solid black;
+}
+
+.btns{
+    margin-top: 10px;
+}
+.btns input{
+  margin-left: 10px;
+}
+
+@media (max-width : 900px){
+  .input-field input, textarea{
+    width: 100%;
+    
+   
+  }
+}
+@media (max-width : 600px){
+
+  .ContactPage{
+    margin: 10px 20px;
+    display: block;
+   
+}
+  .input-field input, textarea{
+    width: 100%;
+    
+   
+  }
+}
+

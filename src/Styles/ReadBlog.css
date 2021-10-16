@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Item{
+    margin: 10px 40px;
+    word-wrap: break-word;
+    word-break: break-all;
+}

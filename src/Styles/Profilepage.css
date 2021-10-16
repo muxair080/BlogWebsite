@@ -1,0 +1,36 @@
+
+.Account{
+    margin: 40px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.input-tags{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+.input-tags label{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.input-tags input{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.error-msg{
+    display: none;
+    color: red;
+}
+#subbmission-msg{
+    display: block;
+    font-size: 1.3rem;
+}
+

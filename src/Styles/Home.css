@@ -1,0 +1,31 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Showcase{ 
+    width: 100vw;
+    min-height: 90vh;
+    /* background-image: url('../Assessts/showcase.jpg'); */
+    background-image: url('https://images.unsplash.com/photo-1494319827402-c4b839aed26b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 ');
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.content{
+    width: 60vw; 
+    font-size: 1.5rem;  
+}
+.content h1{
+    overflow-y: hidden;   
+    text-align: center;
+}
+
+

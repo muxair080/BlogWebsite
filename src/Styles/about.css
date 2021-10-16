@@ -1,0 +1,24 @@
+
+.About{
+    margin: 10px 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.Text-Content{
+    width: 100%;
+    padding: 10px 50px;
+    
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.Main-Heading{
+    text-align: center;
+}
+
+@media (max-width  : 900px){
+    
+.About{
+    margin: 10px 50px;
+    display: block;
+}
+}

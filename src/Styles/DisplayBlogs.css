@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Container{
+    margin: 10px 40px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: 90vh;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 10px 40px 10px 20px;
+}
+.blog{
+    margin: 10px ;
+}
+
+.image img{
+    width: 100%;
+}
+.aboutme{
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+.aboutme .h3-aboutme{
+    text-align: center;
+}
+
+.aboutme  .My-Image img{
+    height: 30vh;
+}
+/**/
+.aboutme .Categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Icons{
+    text-align: center;
+    /* margin-top: -10px; */
+    /* height: 100%; */
+}
+hr{
+    padding: 1px;
+    margin: 10px 0px;
+}
+
+@media (max-width : 900px){
+.Container{
+     display: block;
+    }
+.aboutme{
+       display: none;
+    }
+}
+@media (max-width : 600px){
+.Container{
+     display: block;
+     margin: 10px;
+    }
+.blogs{
+    margin: 10px 10px 10px 10px;
+}
+.aboutme{
+       display: none;
+    }
+}
+
+@media (max-width : 450px){
+.Container{
+     display: block;
+     margin: 10px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1 , 1fr);
+        /* margin: 10px 40px 10px 20px; */
+    }
+.aboutme{
+       display: none;
+    }
+}
